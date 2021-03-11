@@ -15,7 +15,7 @@ if(process.env.NODE_ENV === 'development'){ // on Heroku machine, an env variabl
 
 // our API comes earlier in the pipeline
 server.get('/api/hello', (req, res) => {
-    res.json({ message: 'hello'})
+    res.json({ message: 'this working?'})
 })
 
 // catch-all that just sends back index.html
