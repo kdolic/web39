@@ -12,7 +12,7 @@ if(process.env.NODE_ENV === 'development'){ // on Heroku machine, an env variabl
 }
 
 server.use('*', (req, res) => {
-    res.send('<h1>SUCCESS</h1>')
+    res.send('<h1>Kenan API</h1>')
 })
 
 
